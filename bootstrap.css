@@ -1,0 +1,42 @@
+.navbar{
+    background-color: rgb(7, 7, 7);
+}
+.navbar-brand,.nav-link.active,.nav-link,.nav-item.dropdown,.nav-link.disabled,.btn-outline,.navbar-toggler {
+    color: aliceblue;
+}
+.btn{
+    color: rgb(245, 245, 245);
+}
+.navbox{
+    height: 40px;
+}
+h3{
+    color: transparent;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/05/35/31/82/1000_F_535318272_5rJSfjJLTm7wNJl9mZJQHugPzysGSaHs.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+.cpic{
+    /* color: transparent; */
+    color:rgb(255, 255, 255);
+   /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGAwF-XGAa-RNkMQjGE48lkT_JYz8gZTRkwplSM8rQJWdK6iEPvbBcYoyom8VFs6C8-L0&usqp=CAU); */
+    background-size:contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+.footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px 10px 10px 20px;
+    
+}
+/* toggle color */
+.navbar-toggler-icon {
+    
+}
+
+ 

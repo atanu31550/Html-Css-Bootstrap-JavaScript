@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Creating loader!!</title>
+        <style>
+            .box{
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                border: 2px solid aqua;
+                border-top: 2px solid red;
+                /* animation-name: loader;
+                animation-duration: 650ms;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+                animation-direction: normal; */
+                animation:loader 2s linear infinite normal;
+               
+                
+            }
+
+            @keyframes loader {
+              from{
+                transform:rotate(0deg);
+              }
+              to{
+                transform:rotate(360deg);
+              }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="box2"></div>
+        </div>
+    </body>
+</html>

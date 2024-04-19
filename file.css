@@ -1,0 +1,65 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+    height: 570px;
+    width: 500px;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+    /** by default flex direction set to the ROW  
+      >> so line 12  is not mandatory for that case**/ 
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+.container1{
+    height: 560px;
+    width: 490px;
+    border: 2px solid rgb(226, 104, 4);
+    position: absolute;
+    background-color: rgb(238, 222, 153);
+    border-radius: 8px;
+   
+
+}
+.heading{
+    text-align: center;
+    text-decoration:underline ;
+    text-decoration-style: double;
+    position: relative;
+    animation:headin 5s linear 0s infinite normal;
+}
+@keyframes headin {
+    from
+    {
+        width:300px;
+        color: blue;
+    }
+    to
+    {
+        width:650px;
+        color: rgb(19, 224, 46);
+    }
+}
+.group{
+    display: block;
+}
+.btn:hover{
+  background-color: darkred;
+  cursor: pointer;
+}
+.btn:active{
+    background-color: aqua;
+
+}
+i{
+    color: red;
+}
+.rt{
+    text-align: end;
+}

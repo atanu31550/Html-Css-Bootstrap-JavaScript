@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Place one div inside the center of an another div  </title>
+        <style>
+            body{
+                text-align: center;
+                align-items: center; 
+                display: flex;
+                justify-content: center;
+              }
+            div{display: inline-block;  }
+            .box1{
+                height: 400;
+                width: 400;
+                background-color: antiquewhite;
+                border: 1px solid black;
+                flex-direction: row;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+             
+                
+            }
+            .box2{
+                height: 100;
+                width: 100;
+                background-color: rgb(230, 163, 76);
+                border: 1px solid black;
+                /* align-self: flex-start; */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1">
+            <div class="box2">box2</div>
+        </div>
+    </body>
+</html>
